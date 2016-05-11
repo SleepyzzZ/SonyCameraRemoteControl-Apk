@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popmenu_selectmode"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#404040"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/btn_capture_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:src="@drawable/icon_shooting_mode_still" />
+
+    <ImageButton
+        android:id="@+id/btn_record_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:src="@drawable/icon_shooting_mode_movie"/>
+
+</LinearLayout>
